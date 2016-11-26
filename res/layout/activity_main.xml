@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/btn_protocol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Protocol"/>
+    
+    <Button 
+        android:id="@+id/btn_format"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Format"/>
+    
+    <Button 
+        android:id="@+id/btn_codec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Codec"/>
+    
+    <Button 
+        android:id="@+id/btn_filter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Filter"/>
+
+    <Button 
+        android:id="@+id/btn_config"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Configuration"/>
+    
+    <Button 
+        android:id="@+id/btn_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"/>
+    
+    <Button 
+        android:id="@+id/btn_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"/>
+    
+    <Button 
+        android:id="@+id/btn_fwd"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Forward"/>
+    
+    <Button 
+        android:id="@+id/btn_back"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+    
+    <Button 
+        android:id="@+id/btn_music"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Music"/>
+    
+    <Button 
+        android:id="@+id/btn_find"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Decoder"/>
+    
+    
+    <SurfaceView 
+        android:id="@+id/surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <SeekBar 
+        android:id="@+id/seekbar"
+        android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progress="0"/>
+    
+    <TextView 
+        android:id="@+id/tv_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="progress"/>
+    
+    <ScrollView 
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView 
+            android:id="@+id/tv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        
+    </ScrollView>
+</LinearLayout>
